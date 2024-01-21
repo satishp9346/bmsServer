@@ -1,0 +1,27 @@
+{
+  "name": "bmsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"No build specified\" || true",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satishp9346/BsmServer(new).git"
+  },
+  "author": "Satish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satishp9346/bsmServer/issues"
+  },
+  "homepage": "https://github.com/satishp9346/bsmServer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  }
+}
