@@ -2,7 +2,14 @@ require('dotenv').config();
 const express=require('express');
 const mongoose=require('mongoose');
 const {Schema}=mongoose;
+const cors=require('cors');
+const corsoptions={
+    origin:"https://bmspayment.vercel.app",
+    origin:"http://localhost:3000"
+}
+
 const app=express();
+app.use(cors(corsoptions));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
